@@ -73,7 +73,7 @@
 	dir = 8;
 	pixel_x = 16
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/plating/toilet,
 /area/space)
 "az" = (
 /obj/structure/chair/stool/bar,
@@ -112,7 +112,7 @@
 /obj/structure/closet/crate/bin{
 	pixel_y = 10
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "aW" = (
 /obj/effect/turf_decal/asphaltline/alt,
@@ -163,7 +163,7 @@
 	dir = 4;
 	pixel_x = -16
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "bo" = (
 /obj/structure/toilet{
@@ -305,7 +305,7 @@
 /obj/structure/chair/sofa/old/right{
 	dir = 4
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "cs" = (
 /obj/machinery/washing_machine,
@@ -322,7 +322,7 @@
 /area/space)
 "cw" = (
 /obj/effect/turf_decal/siding/white,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "cy" = (
 /obj/structure/table,
@@ -334,7 +334,7 @@
 /area/space)
 "cz" = (
 /obj/structure/chair/wood/wings,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "cA" = (
 /obj/structure/table/wood,
@@ -362,7 +362,7 @@
 "cJ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/random,
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/carpet/vamp/blackgold,
 /area/space)
 "cP" = (
 /obj/machinery/light/small/pink{
@@ -410,7 +410,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "da" = (
 /obj/effect/turf_decal/bordur/corner{
@@ -683,7 +683,7 @@
 	pixel_y = 8;
 	dir = 1
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/plating/toilet,
 /area/space)
 "eV" = (
 /obj/structure/table/wood/poker,
@@ -781,6 +781,10 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/space)
+"fG" = (
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/carpet/vamp/bluesilver,
+/area/space)
 "fK" = (
 /turf/open/floor/plating/bacotell,
 /area/space)
@@ -827,7 +831,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "gg" = (
 /obj/structure/vampdoor{
@@ -1072,7 +1076,7 @@
 /area/space)
 "hz" = (
 /obj/structure/chair/sofa/old/left,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "hC" = (
 /obj/structure/bookcase/random/reference,
@@ -1254,7 +1258,7 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp/redsilver,
 /area/space)
 "iJ" = (
 /obj/structure/sink{
@@ -1358,7 +1362,7 @@
 /obj/machinery/light{
 	pixel_y = 30
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "jI" = (
 /obj/structure/closet/crate/freezer/fridge,
@@ -1415,13 +1419,13 @@
 /obj/structure/chair/sofa/corp{
 	dir = 1
 	},
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/vamp/greengold,
 /area/space)
 "ka" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "kc" = (
 /obj/structure/chair{
@@ -1525,7 +1529,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "kU" = (
 /obj/machinery/door/poddoor/shutters{
@@ -1954,7 +1958,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "ol" = (
 /obj/structure/closet/crate/trashcart/laundry,
@@ -1991,7 +1995,7 @@
 /turf/open/floor/carpet/blue,
 /area/space)
 "ow" = (
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/vamp/greengold,
 /area/space)
 "ox" = (
 /obj/structure/sign/painting/library{
@@ -2085,7 +2089,7 @@
 	dir = 8;
 	light_color = "#6488EA"
 	},
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/vamp/greengold,
 /area/space)
 "pb" = (
 /obj/structure/vampdoor/cleaning,
@@ -2109,6 +2113,9 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
+"pg" = (
+/turf/open/floor/carpet/vamp/bluesilver,
+/area/space)
 "pl" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/sidewalk,
@@ -2116,7 +2123,7 @@
 "pn" = (
 /obj/effect/landmark/start/vdoctor,
 /obj/structure/chair/office,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "pq" = (
 /obj/structure/vampdoor{
@@ -2211,7 +2218,7 @@
 "pX" = (
 /obj/structure/bed,
 /obj/item/bedsheet/random,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "qc" = (
 /obj/structure/chair/sofa/corp,
@@ -2234,7 +2241,7 @@
 	name = "\improper clinic phone";
 	desc = "A landline phone for use by the clinic."
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "qg" = (
 /obj/machinery/light/red{
@@ -2261,7 +2268,7 @@
 	pixel_y = 11;
 	pixel_x = 6
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "qn" = (
 /obj/machinery/light/small/directional/west{
@@ -2283,7 +2290,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "qs" = (
 /obj/effect/turf_decal/stock{
@@ -2465,7 +2472,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/thinplating,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp/redsilver,
 /area/space)
 "rF" = (
 /obj/structure/table/wood/fancy/blue,
@@ -2577,7 +2584,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "so" = (
 /obj/effect/decal/support,
@@ -2710,7 +2717,7 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 10
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp/redsilver,
 /area/space)
 "tk" = (
 /obj/effect/turf_decal/siding/white{
@@ -2875,7 +2882,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "ue" = (
 /obj/structure/railing,
@@ -2920,7 +2927,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "ur" = (
 /obj/structure/bed/maint,
@@ -2950,7 +2957,7 @@
 	anchored = 1;
 	pixel_y = 8
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "uG" = (
 /obj/effect/turf_decal/bordur,
@@ -2987,7 +2994,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "uT" = (
 /obj/structure/table,
@@ -3044,7 +3051,7 @@
 /obj/machinery/photocopier{
 	density = 0
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "vf" = (
 /obj/vampire_car/police/unmarked,
@@ -3070,7 +3077,7 @@
 /area/space)
 "vk" = (
 /obj/structure/chair/office,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "vo" = (
 /obj/structure/chair/sofa/old/right{
@@ -3170,7 +3177,7 @@
 /area/space)
 "vS" = (
 /obj/structure/coclock,
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/vamp/greengold,
 /area/space)
 "vT" = (
 /obj/structure/extinguisher_cabinet{
@@ -3189,13 +3196,13 @@
 /area/space)
 "vZ" = (
 /obj/structure/chair,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "wb" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "we" = (
 /obj/item/storage/basket{
@@ -3206,7 +3213,7 @@
 	pixel_x = 16;
 	pixel_y = 28
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "wg" = (
 /obj/structure/vampdoor/police/secure{
@@ -3241,7 +3248,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "wt" = (
 /obj/structure/table/wood,
@@ -3253,7 +3260,7 @@
 /area/space)
 "wB" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "wD" = (
 /obj/structure/closet/crate/bin{
@@ -3261,7 +3268,7 @@
 	pixel_x = 8
 	},
 /obj/effect/decal/cleanable/litter,
-/turf/open/floor/plating/circled,
+/turf/open/floor/plating/toilet,
 /area/space)
 "wF" = (
 /obj/effect/turf_decal/siding/white,
@@ -3456,7 +3463,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "xy" = (
 /obj/machinery/light/small/pink{
@@ -3553,7 +3560,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
 "yx" = (
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "yy" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -3612,7 +3619,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "yT" = (
 /obj/effect/decal/support,
@@ -3661,7 +3668,7 @@
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
 	},
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/vamp/greengold,
 /area/space)
 "zr" = (
 /obj/structure/chair/sofa/bench/metal/left{
@@ -3757,7 +3764,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "zR" = (
 /obj/structure/vampfence/rich{
@@ -3783,7 +3790,7 @@
 	dir = 4;
 	pixel_y = 9
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/carpet/vamp/blackgold,
 /area/space)
 "Aa" = (
 /obj/structure/table/wood,
@@ -3870,7 +3877,7 @@
 /obj/structure/chair/sofa/old/left{
 	dir = 1
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "AB" = (
 /obj/structure/table,
@@ -3929,7 +3936,7 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 9
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp/redsilver,
 /area/space)
 "AR" = (
 /obj/structure/table,
@@ -4023,7 +4030,7 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "BB" = (
 /obj/effect/decal/wallpaper/papers/eight{
@@ -4032,7 +4039,7 @@
 /turf/closed/wall/vampwall/bar,
 /area/space)
 "BD" = (
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "BF" = (
 /obj/structure/table,
@@ -4073,13 +4080,13 @@
 	dir = 4;
 	bulb_colour = "#c892ec"
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Cb" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Cc" = (
 /obj/effect/turf_decal/siding/white{
@@ -4157,7 +4164,7 @@
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/vamp/greengold,
 /area/space)
 "CY" = (
 /obj/machinery/light/small/directional/east{
@@ -4196,7 +4203,7 @@
 /obj/item/newspaper{
 	pixel_y = 6
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "Dr" = (
 /turf/open/floor/plating/roofwalk,
@@ -4278,7 +4285,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "DR" = (
 /obj/structure/curtain/bounty,
@@ -4343,7 +4350,7 @@
 /area/space)
 "Ep" = (
 /obj/structure/dresser,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Et" = (
 /obj/structure/table/wood,
@@ -4383,7 +4390,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "EC" = (
 /obj/structure/closet/secure_closet/weapons,
@@ -4538,7 +4545,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "Fq" = (
 /obj/structure/vampdoor/wood{
@@ -4616,7 +4623,7 @@
 	pixel_x = -8;
 	layer = 2.8
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/toilet,
 /area/space)
 "FO" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -4652,7 +4659,7 @@
 	},
 /obj/effect/decal/cleanable/litter,
 /obj/structure/coclock,
-/turf/open/floor/plating/circled,
+/turf/open/floor/plating/toilet,
 /area/space)
 "FV" = (
 /obj/structure/chair/plastic{
@@ -4730,7 +4737,7 @@
 	icon_state = "nboard05";
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Gx" = (
 /obj/structure/table,
@@ -4754,7 +4761,7 @@
 "GA" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/cups,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "GE" = (
 /obj/structure/closet/crate/bin{
@@ -4769,7 +4776,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "GF" = (
 /obj/effect/turf_decal/bordur{
@@ -4850,7 +4857,7 @@
 /obj/item/toy/cards/deck{
 	pixel_y = 9
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "He" = (
 /obj/structure/bookcase/random/reference,
@@ -4872,7 +4879,7 @@
 	dir = 4
 	},
 /obj/structure/coclock,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "Hq" = (
 /obj/effect/decal/wallpaper/blue,
@@ -4941,7 +4948,7 @@
 	dir = 8;
 	color = "#50331a"
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "HP" = (
 /obj/structure/toilet{
@@ -4950,7 +4957,7 @@
 /obj/machinery/light{
 	pixel_y = 30
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/toilet,
 /area/space)
 "HQ" = (
 /obj/effect/decal/wallpaper/blue,
@@ -5056,7 +5063,7 @@
 /area/space)
 "Iy" = (
 /obj/structure/closet/cabinet,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "IK" = (
 /obj/effect/decal/carpet{
@@ -5091,14 +5098,14 @@
 /area/space)
 "Jh" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Ji" = (
 /obj/structure/closet,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "Jk" = (
 /obj/structure/railing{
@@ -5336,7 +5343,7 @@
 	pixel_y = 10;
 	dir = 2
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/plating/toilet,
 /area/space)
 "Lq" = (
 /obj/structure/vampdoor/cleaning{
@@ -5348,7 +5355,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/end{
 	dir = 4
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "Ls" = (
 /obj/structure/mirror{
@@ -5464,7 +5471,7 @@
 /area/space)
 "LR" = (
 /obj/structure/coclock,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "LT" = (
 /obj/structure/toilet{
@@ -5475,7 +5482,7 @@
 	dir = 4;
 	pixel_x = -16
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/plating/toilet,
 /area/space)
 "LY" = (
 /obj/effect/decal/carpet{
@@ -5823,7 +5830,7 @@
 	pixel_y = 12
 	},
 /obj/structure/table/wood,
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/vamp/greengold,
 /area/space)
 "Or" = (
 /turf/open/floor/plating/granite/black,
@@ -5864,7 +5871,7 @@
 /obj/item/reagent_containers/blood,
 /obj/item/reagent_containers/blood,
 /obj/item/reagent_containers/blood,
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "OI" = (
 /obj/structure/chair/red{
@@ -5872,7 +5879,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "OO" = (
 /obj/machinery/light{
@@ -6096,7 +6103,7 @@
 	pixel_y = 12;
 	layer = 2.9
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Qe" = (
 /obj/effect/turf_decal/bordur,
@@ -6106,7 +6113,7 @@
 /obj/structure/chair/wood/wings{
 	dir = 8
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Qp" = (
 /obj/structure/chair/sofa/corp/left,
@@ -6233,7 +6240,7 @@
 /obj/item/pen{
 	pixel_y = 8
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "Rb" = (
 /obj/structure/table,
@@ -6420,7 +6427,7 @@
 /turf/open/floor/plating/vampplating,
 /area/space)
 "Sb" = (
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/carpet/vamp/blackgold,
 /area/space)
 "Sc" = (
 /obj/effect/decal/cleanable/oil,
@@ -6573,7 +6580,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 10
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "SX" = (
 /obj/structure/chair/sofa/old/left{
@@ -6659,14 +6666,14 @@
 /obj/structure/chair/sofa/old/corner{
 	dir = 8
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Tp" = (
 /obj/machinery/computer/operating,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "Tt" = (
 /obj/effect/turf_decal/bordur,
@@ -6958,7 +6965,7 @@
 /obj/structure/chair{
 	dir = 1
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "VG" = (
 /obj/structure/railing{
@@ -6985,7 +6992,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "VM" = (
 /obj/structure/vampdoor/wood,
@@ -7073,7 +7080,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plating/toilet/clinic,
 /area/space)
 "Wl" = (
 /obj/structure/vampdoor/glass,
@@ -7113,7 +7120,7 @@
 /obj/structure/chair/sofa/old/right{
 	dir = 8
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "WD" = (
 /obj/item/melee/skateboard,
@@ -7143,7 +7150,7 @@
 	pixel_x = 10;
 	pixel_y = 3
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/toilet,
 /area/space)
 "WN" = (
 /obj/structure/noticeboard{
@@ -7308,7 +7315,7 @@
 /obj/structure/chair/wood/wings{
 	dir = 4
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "XY" = (
 /obj/effect/decal/rugs{
@@ -7357,7 +7364,7 @@
 	dir = 8;
 	color = "#50331a"
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "Yj" = (
 /obj/structure/filingcabinet{
@@ -7428,7 +7435,7 @@
 /obj/machinery/light{
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "YE" = (
 /obj/effect/turf_decal/siding/brown{
@@ -7463,7 +7470,7 @@
 	pixel_y = 7;
 	pixel_x = 11
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/carpet/vamp,
 /area/space)
 "YP" = (
 /obj/structure/table/reinforced,
@@ -7605,7 +7612,7 @@
 /area/space)
 "ZR" = (
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/bluesilver,
 /area/space)
 "ZS" = (
 /obj/structure/filingcabinet/security,
@@ -23376,7 +23383,7 @@ WO
 WO
 WS
 yR
-rs
+bp
 qs
 WS
 WS
@@ -23479,7 +23486,7 @@ WO
 WS
 HP
 WL
-rs
+bp
 WS
 vT
 rs
@@ -23580,8 +23587,8 @@ WO
 WO
 WS
 FL
-rs
-rs
+bp
+bp
 pb
 rs
 rs
@@ -23787,7 +23794,7 @@ Yf
 Hq
 Hn
 cp
-wF
+fG
 ku
 CN
 CN
@@ -23889,7 +23896,7 @@ AF
 Hq
 hz
 Dl
-wF
+fG
 ku
 ku
 ku
@@ -23990,8 +23997,8 @@ hH
 AF
 Hq
 wb
-Cw
-wF
+pg
+fG
 ku
 ku
 ku
@@ -24296,8 +24303,8 @@ aW
 AF
 Cx
 ve
-Cw
-Cw
+pg
+pg
 xk
 NI
 NI
@@ -24398,7 +24405,7 @@ hH
 AF
 pd
 qj
-Cw
+pg
 ka
 Cx
 NI
@@ -24500,7 +24507,7 @@ aW
 AF
 Hq
 aU
-Cw
+pg
 vk
 Rk
 NI
@@ -24602,7 +24609,7 @@ hH
 AF
 Hq
 ZR
-Cw
+pg
 pn
 eS
 NI
@@ -24627,7 +24634,7 @@ WO
 WO
 BV
 mr
-Cw
+pg
 we
 uG
 bP
@@ -24704,7 +24711,7 @@ aW
 AF
 Hq
 GA
-Cw
+pg
 qf
 Hq
 Bt
@@ -24729,8 +24736,8 @@ WO
 WO
 BV
 mr
-Cw
-Cw
+pg
+pg
 uG
 bP
 WO
@@ -26104,7 +26111,7 @@ XQ
 kr
 vC
 Lm
-mz
+bp
 If
 NI
 NI
@@ -26307,7 +26314,7 @@ gA
 XQ
 XQ
 oy
-mz
+bp
 eU
 vC
 vC
