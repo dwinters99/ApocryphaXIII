@@ -3763,4 +3763,6 @@
 #include "modular_zapoc\carpets.dm"
 #include "modular_zapoc\tiles.dm"
 #include "modular_zapoc\modules\ravnos\code\ravnos.dm"
+#include "modular_zapoc\modules\mini_protean_update\code\dirt_pile.dm"
+#include "modular_zapoc\modules\mini_protean_update\code\mist_form.dm"
 // END_INCLUDE
