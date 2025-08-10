@@ -119,8 +119,7 @@
 	held_items = list(null, null)
 	possible_a_intents = list(INTENT_HELP, INTENT_GRAB, INTENT_DISARM, INTENT_HARM)
 
-//EARTH MELD
-/* ZAPOC EDIT START
+//ZAPOC EDIT START
 /obj/effect/proc_holder/spell/targeted/shapeshift/gangrel
 	name = "Gangrel Form"
 	desc = "Take on the shape a wolf."
@@ -129,8 +128,8 @@
 	revert_on_death = TRUE
 	die_with_shapeshifted_form = FALSE
 	shapeshift_type = /mob/living/simple_animal/hostile/gangrel
-*/
 
+//EARTH MELD
 /datum/discipline_power/protean/earth_meld
 	name = "Earth Meld"
 	desc = "Hide yourself in the earth itself."
@@ -158,7 +157,7 @@
 	D.alpha = 64 // Subtle dirt
 	owner.forceMove(D) // Put ourselves inside the dirt
 
-/datum/discipline_power/protean/pre_activation_checks()
+/datum/discipline_power/protean/earth_meld/pre_activation_checks()
 	var/allowed_turfs = list(
 		/turf/open/floor/plating/vampgrass,
 		/turf/open/floor/plating/vampbeach,
@@ -184,10 +183,12 @@
 
 /datum/discipline_power/protean/earth_meld/deactivate()
 	. = ..()
-	owner.SetStun(0)
-	owner.Knockdown(3 SECONDS) // Get-up lag
-	owner.forceMove(get_turf(D))
-	D.remove_dirt_pile()
+	if(owner.IsStun())
+		owner.SetStun(0) // End the ongoing stun
+	if(!D.expiring) // If D.expiring == 1, the following will occur anyways.
+		owner.Knockdown(3 SECONDS) // Get-up lag
+		owner.forceMove(get_turf(D))
+		D.remove_dirt_pile()
 /*
 /datum/discipline_power/protean/earth_meld/activate()
 	. = ..()

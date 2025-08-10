@@ -20,8 +20,8 @@
 	pass_flags = PASSTABLE | PASSGRILLE | PASSMOB
 	mob_size = MOB_SIZE_TINY
 	speed = -0.8
-	maxHealth = INFINITY
-	health = INFINITY
+	maxHealth = 400
+	health = 400
 	harm_intent_damage = 0
 	melee_damage_lower = 0
 	melee_damage_upper = 0
