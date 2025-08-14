@@ -37,7 +37,11 @@
 
 /mob/living/carbon/human/Move(NewLoc, direct)
 	. = ..()
-	time_spent_stationary = 0 // APOC EDIT ADD
+	if(stationary_hunger_mod <= 90)
+		stationary_hunger_mod += 10 // APOC EDIT ADD
+	else
+		stationary_hunger_mod = 100
+
 	if(shoes && body_position == STANDING_UP && loc == NewLoc && has_gravity(loc))
 		SEND_SIGNAL(shoes, COMSIG_SHOES_STEP_ACTION)
 
