@@ -261,7 +261,7 @@
 /obj/structure/closet/crate/bin{
 	pixel_y = 10
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "aW" = (
 /obj/effect/turf_decal/asphaltline/alt,
@@ -592,7 +592,7 @@
 /obj/structure/chair/sofa/old/right{
 	dir = 4
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "cq" = (
 /obj/effect/turf_decal/bordur{
@@ -1825,7 +1825,7 @@
 /area/space)
 "hz" = (
 /obj/structure/chair/sofa/old/left,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "hC" = (
 /obj/structure/bookcase/random/reference,
@@ -2487,7 +2487,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "kc" = (
 /obj/effect/turf_decal/siding/white{
@@ -3769,7 +3769,7 @@
 "pn" = (
 /obj/effect/landmark/start/vdoctor,
 /obj/structure/chair/office,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "pp" = (
 /obj/effect/turf_decal/bordur{
@@ -3968,7 +3968,7 @@
 	name = "\improper clinic phone";
 	desc = "A landline phone for use by the clinic."
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "qg" = (
 /obj/machinery/light/red{
@@ -4002,7 +4002,7 @@
 	pixel_y = 11;
 	pixel_x = 6
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "qm" = (
 /obj/effect/turf_decal/bordur{
@@ -4065,6 +4065,10 @@
 /area/space)
 "qw" = (
 /turf/cordon,
+/area/space)
+"qx" = (
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "qy" = (
 /obj/effect/turf_decal/bordur{
@@ -5331,7 +5335,7 @@
 /obj/machinery/photocopier{
 	density = 0
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "vf" = (
 /obj/vampire_car/police/unmarked,
@@ -5357,7 +5361,7 @@
 /area/space)
 "vk" = (
 /obj/structure/chair/office,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "vo" = (
 /obj/structure/chair/sofa/old/right{
@@ -5548,7 +5552,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "we" = (
 /obj/item/storage/basket{
@@ -5921,7 +5925,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "xy" = (
 /obj/machinery/light/small/pink{
@@ -7376,7 +7380,7 @@
 /obj/item/newspaper{
 	pixel_y = 6
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "Dp" = (
 /obj/effect/turf_decal/siding/wood{
@@ -7950,7 +7954,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "Fn" = (
 /obj/effect/turf_decal/bordur/corner,
@@ -8290,7 +8294,7 @@
 "GA" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/cups,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "GB" = (
 /obj/effect/decal/shadow,
@@ -8496,7 +8500,7 @@
 	dir = 4
 	},
 /obj/structure/coclock,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "Ho" = (
 /obj/structure/railing{
@@ -9222,6 +9226,9 @@
 	dir = 10
 	},
 /turf/open/floor/plating/rough,
+/area/space)
+"Kd" = (
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "Ke" = (
 /obj/machinery/light/prince{
@@ -11052,7 +11059,7 @@
 /obj/item/pen{
 	pixel_y = 8
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "Rb" = (
 /obj/structure/table,
@@ -13284,7 +13291,7 @@
 /area/space)
 "ZR" = (
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/vamp/cyan,
 /area/space)
 "ZS" = (
 /obj/structure/filingcabinet/security,
@@ -29478,7 +29485,7 @@ Yf
 Hq
 Hn
 cp
-wF
+qx
 ku
 CN
 CN
@@ -29580,7 +29587,7 @@ AF
 Hq
 hz
 Dl
-wF
+qx
 ku
 ku
 ku
@@ -29681,8 +29688,8 @@ hH
 AF
 Hq
 wb
-Cw
-wF
+Kd
+qx
 ku
 ku
 ku
@@ -29987,8 +29994,8 @@ aW
 AF
 Cx
 ve
-Cw
-Cw
+Kd
+Kd
 xk
 NI
 NI
@@ -30089,7 +30096,7 @@ hH
 AF
 pd
 qj
-Cw
+Kd
 ka
 Cx
 NI
@@ -30191,7 +30198,7 @@ aW
 AF
 Hq
 aU
-Cw
+Kd
 vk
 Rk
 NI
@@ -30293,7 +30300,7 @@ hH
 AF
 Hq
 ZR
-Cw
+Kd
 pn
 eS
 NI
@@ -30395,7 +30402,7 @@ aW
 AF
 Hq
 GA
-Cw
+Kd
 qf
 Hq
 Bt
