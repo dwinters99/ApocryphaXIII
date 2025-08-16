@@ -35352,7 +35352,7 @@
 "iIv" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/wood{
-	lock_id = "director";
+	lock_id = "clinic";
 	lockpick_difficulty = 16;
 	locked = 1;
 	name = "Director's Office"
@@ -36252,6 +36252,10 @@
 	name = "Fire Shelter keys";
 	desc = "Keys to the clinic's fire shelter.";
 	color = "#e06224"
+	},
+/obj/item/vamp/keys/clinic{
+	accesslocks = list("clinic", "clinicsec");
+	name = "Clinic Security keys"
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/clinic)
