@@ -481,10 +481,6 @@
 	},
 /obj/item/clothing/mask/cigarette/rollie,
 /obj/item/match,
-/obj/effect/decal/cleanable/blood/old{
-	pixel_y = 4;
-	pixel_x = 14
-	},
 /turf/open/floor/plating/concrete,
 /area/space)
 "dd" = (
@@ -555,6 +551,15 @@
 	dir = 10
 	},
 /turf/open/floor/carpet/vamp/bluesilver,
+/area/space)
+"dA" = (
+/obj/structure/vampdoor/cleaning{
+	lock_id = "clinic";
+	lockpick_difficulty = 6;
+	name = "Ambulance Bay";
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating/mono,
 /area/space)
 "dB" = (
 /obj/structure/vampdoor{
@@ -679,6 +684,13 @@
 	layer = 2.8
 	},
 /turf/open/floor/plating/toilet,
+/area/space)
+"ef" = (
+/obj/structure/table,
+/obj/vampire_computer{
+	owner = "Doctor"
+	},
+/turf/open/floor/plating/vampplating,
 /area/space)
 "eg" = (
 /obj/effect/decal/cleanable/litter,
@@ -2320,6 +2332,9 @@
 	},
 /turf/open/openspace,
 /area/space)
+"ou" = (
+/turf/cordon,
+/area/misc/cordon)
 "ow" = (
 /turf/open/floor/carpet/vamp/greengold,
 /area/space)
@@ -3466,6 +3481,12 @@
 /turf/open/floor/plating/toilet{
 	color = "#636363"
 	},
+/area/space)
+"vc" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
 /area/space)
 "ve" = (
 /obj/machinery/photocopier{
@@ -4874,12 +4895,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
-"DY" = (
-/obj/matrix{
-	alpha = 0
-	},
-/turf/open/floor/plating/sidewalk,
-/area/space)
 "DZ" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/vampplating/stone,
@@ -5508,6 +5523,12 @@
 /obj/structure/vampdoor/glass,
 /turf/open/floor/plating/parquetry/old,
 /area/space)
+"Hj" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating,
+/area/space)
 "Hm" = (
 /obj/structure/railing/metal{
 	dir = 8;
@@ -5815,10 +5836,6 @@
 "Jp" = (
 /turf/open/floor/plating/parquetry/rich,
 /area/space)
-"Jq" = (
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/sidewalk,
-/area/space)
 "Jr" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -6122,10 +6139,6 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/rough,
-/area/space)
-"Lx" = (
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/concrete,
 /area/space)
 "LA" = (
 /obj/item/kirbyplants/random,
@@ -6583,10 +6596,6 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/plating/toilet,
 /area/space)
-"Ok" = (
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/circled,
-/area/space)
 "On" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -6794,10 +6803,6 @@
 	dir = 8
 	},
 /mob/living/simple_animal/mouse/brown/tom,
-/obj/effect/decal/cleanable/blood/old{
-	pixel_y = -7;
-	pixel_x = -8
-	},
 /turf/open/floor/plating/concrete,
 /area/space)
 "PG" = (
@@ -7750,12 +7755,6 @@
 /obj/item/paper,
 /turf/open/floor/plating/parquetry/old,
 /area/space)
-"UM" = (
-/obj/effect/decal/cleanable/blood/old{
-	icon_state = "floor7-old"
-	},
-/turf/open/floor/plating/sidewalk,
-/area/space)
 "UN" = (
 /obj/structure/closet/crate/bin{
 	pixel_y = 16;
@@ -7875,6 +7874,17 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/vamp,
+/area/space)
+"Vr" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_y = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
 /area/space)
 "VG" = (
 /obj/structure/railing{
@@ -8359,11 +8369,6 @@
 	},
 /obj/effect/decal/graffiti/large,
 /turf/open/floor/plating/vampgrass,
-/area/space)
-"Yu" = (
-/obj/matrix,
-/obj/matrix,
-/turf/open/space/basic,
 /area/space)
 "Yv" = (
 /obj/effect/turf_decal/crosswalk{
@@ -13978,11 +13983,11 @@ vJ
 vJ
 vJ
 vJ
-vJ
-vJ
-vJ
-vJ
-vJ
+WS
+WS
+WS
+WS
+WS
 vJ
 vJ
 vJ
@@ -14080,11 +14085,11 @@ vJ
 vJ
 vJ
 vJ
-vJ
-vJ
-vJ
-vJ
-vJ
+WS
+Hj
+Hj
+Hj
+WS
 vJ
 vJ
 vJ
@@ -14182,11 +14187,11 @@ vJ
 vJ
 vJ
 vJ
-vJ
-vJ
-vJ
-vJ
-vJ
+WS
+rs
+rs
+rs
+WS
 vJ
 vJ
 vJ
@@ -14284,11 +14289,11 @@ Hr
 Hr
 Hr
 Hr
-Hr
-Hr
-Hr
-Hr
-Hr
+WS
+rs
+rs
+vc
+WS
 Hr
 Hr
 vJ
@@ -14383,15 +14388,15 @@ vJ
 vJ
 vJ
 Hr
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
+Hr
+Hr
+Hr
+WS
+rs
+Vr
+ef
+WS
+Hr
 Hr
 Hr
 vJ
@@ -14485,15 +14490,15 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 WS
 WS
+dA
 WS
 WS
 WS
-WS
-sJ
+Hr
 Hr
 Hr
 vJ
@@ -14587,7 +14592,7 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 xS
 rs
@@ -14595,8 +14600,8 @@ gb
 NP
 LC
 WS
-sJ
-sJ
+Hr
+Hr
 Hr
 vJ
 vJ
@@ -14689,7 +14694,7 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 xS
 rs
@@ -14698,7 +14703,7 @@ gb
 mi
 WS
 WS
-sJ
+Hr
 Hr
 vJ
 vJ
@@ -14791,7 +14796,7 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 qd
 rs
@@ -14800,7 +14805,7 @@ gb
 hD
 hD
 WS
-sJ
+Hr
 Hr
 vJ
 vJ
@@ -14893,7 +14898,7 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 rM
 gb
@@ -14902,7 +14907,7 @@ gb
 rs
 hD
 WS
-sJ
+Hr
 Hr
 vJ
 vJ
@@ -14995,7 +15000,7 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 sD
 gb
@@ -15004,7 +15009,7 @@ rs
 rs
 rs
 WS
-sJ
+Hr
 Hr
 vJ
 vJ
@@ -15097,7 +15102,7 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 MU
 gb
@@ -15106,7 +15111,7 @@ rs
 yC
 yC
 WS
-sJ
+Hr
 Hr
 vJ
 vJ
@@ -15199,7 +15204,7 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 WS
 Us
@@ -15208,7 +15213,7 @@ WS
 WS
 WS
 WS
-sJ
+Hr
 Hr
 vJ
 vJ
@@ -15301,16 +15306,16 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 QP
 Cm
 WS
-sJ
-sJ
-sJ
-sJ
-sJ
+Hr
+Hr
+Hr
+Hr
+Hr
 Hr
 vJ
 vJ
@@ -15403,12 +15408,12 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 uo
 eW
 WS
-sJ
+Hr
 Hr
 Hr
 Hr
@@ -15505,12 +15510,12 @@ vJ
 vJ
 vJ
 Hr
-sJ
+Hr
 WS
 WS
 WS
 WS
-sJ
+Hr
 Hr
 vJ
 vJ
@@ -15607,12 +15612,12 @@ vJ
 vJ
 vJ
 Hr
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
+Hr
+Hr
+Hr
+Hr
+Hr
+Hr
 Hr
 vJ
 vJ
@@ -16175,30 +16180,30 @@ vJ
 vJ
 vJ
 Hr
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
 Hr
 vJ
 vJ
@@ -16277,7 +16282,7 @@ vJ
 vJ
 Hr
 Hr
-sJ
+ou
 vC
 vC
 vC
@@ -16286,8 +16291,8 @@ vC
 vC
 vC
 vC
-sJ
-sJ
+ou
+ou
 vC
 vC
 vC
@@ -16300,7 +16305,7 @@ vC
 vC
 vC
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -16378,8 +16383,8 @@ vJ
 (77,1,1) = {"
 vJ
 Hr
-sJ
-sJ
+ou
+ou
 vC
 Yl
 Cm
@@ -16388,8 +16393,8 @@ Cm
 Cm
 ei
 vC
-sJ
-sJ
+ou
+ou
 vC
 Cm
 Cm
@@ -16402,7 +16407,7 @@ sI
 yZ
 Bo
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -16480,7 +16485,7 @@ vJ
 (78,1,1) = {"
 vJ
 Hr
-sJ
+ou
 vC
 vC
 UT
@@ -16490,8 +16495,8 @@ Cm
 Cm
 Cm
 vC
-sJ
-sJ
+ou
+ou
 vC
 Cm
 Ac
@@ -16504,12 +16509,12 @@ rs
 mR
 yy
 vC
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
+ou
+ou
+ou
+ou
+ou
+ou
 Hr
 vJ
 vJ
@@ -16582,7 +16587,7 @@ vJ
 (79,1,1) = {"
 vJ
 Hr
-sJ
+ou
 vC
 ei
 Cm
@@ -16592,8 +16597,8 @@ Rf
 Cm
 hb
 vC
-sJ
-sJ
+ou
+ou
 vC
 NV
 AR
@@ -16611,7 +16616,7 @@ vC
 vC
 vC
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -16684,7 +16689,7 @@ vJ
 (80,1,1) = {"
 Hr
 Hr
-sJ
+ou
 vC
 wK
 Cm
@@ -16694,8 +16699,8 @@ WZ
 Cm
 Cm
 vC
-sJ
-sJ
+ou
+ou
 vC
 Cm
 qF
@@ -16713,7 +16718,7 @@ Cm
 Cm
 ei
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -16784,9 +16789,9 @@ vJ
 vJ
 "}
 (81,1,1) = {"
-sJ
-sJ
-sJ
+ou
+ou
+ou
 vC
 aI
 Cm
@@ -16796,8 +16801,8 @@ Td
 Cm
 Cm
 vC
-sJ
-sJ
+ou
+ou
 vC
 Cm
 Cm
@@ -16815,7 +16820,7 @@ Cm
 sO
 Tn
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -16917,7 +16922,7 @@ Cm
 Cm
 fr
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17019,7 +17024,7 @@ Cm
 Cm
 Cm
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17121,7 +17126,7 @@ Cm
 CP
 hp
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17223,7 +17228,7 @@ vC
 vC
 vC
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17320,12 +17325,12 @@ vC
 vC
 vC
 vC
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
+ou
+ou
+ou
+ou
+ou
+ou
 Hr
 vJ
 vJ
@@ -17396,7 +17401,7 @@ vJ
 vJ
 "}
 (87,1,1) = {"
-sJ
+ou
 vC
 wt
 iE
@@ -17407,7 +17412,7 @@ cf
 Cm
 QR
 vC
-Hr
+ou
 cE
 qI
 rs
@@ -17422,7 +17427,7 @@ XQ
 XQ
 He
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -17498,7 +17503,7 @@ vJ
 vJ
 "}
 (88,1,1) = {"
-sJ
+ou
 vC
 eP
 bp
@@ -17507,9 +17512,9 @@ bp
 Ty
 NX
 RU
-Lx
+Cm
 vC
-Hr
+ou
 Os
 ol
 Kz
@@ -17524,7 +17529,7 @@ XQ
 XQ
 He
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17600,7 +17605,7 @@ vJ
 vJ
 "}
 (89,1,1) = {"
-sJ
+ou
 vC
 Nr
 bp
@@ -17608,10 +17613,10 @@ bp
 LD
 Ty
 zD
-Lx
+Cm
 at
 vC
-Hr
+ou
 vC
 ta
 nk
@@ -17626,7 +17631,7 @@ Aa
 XQ
 He
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17702,7 +17707,7 @@ vJ
 vJ
 "}
 (90,1,1) = {"
-sJ
+ou
 vC
 wt
 iE
@@ -17713,7 +17718,7 @@ vC
 vC
 vC
 vC
-Hr
+ou
 vC
 vC
 vC
@@ -17728,7 +17733,7 @@ hi
 XQ
 He
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17804,22 +17809,22 @@ vJ
 vJ
 "}
 (91,1,1) = {"
-DY
+ou
 vC
 vC
 vC
 wU
 vC
 vC
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
 vC
 He
 XQ
@@ -17830,7 +17835,7 @@ XQ
 XQ
 He
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -17906,14 +17911,14 @@ vJ
 vJ
 "}
 (92,1,1) = {"
-DY
+ou
 vC
 tl
 DE
 JE
 ZS
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -17921,7 +17926,7 @@ Hr
 Hr
 Hr
 Hr
-sJ
+ou
 vC
 He
 XQ
@@ -17932,7 +17937,7 @@ He
 XQ
 He
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -18015,7 +18020,7 @@ zG
 JE
 mo
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -18023,7 +18028,7 @@ Hr
 Hr
 Hr
 Hr
-sJ
+ou
 vC
 vC
 vC
@@ -18034,7 +18039,7 @@ vC
 vC
 vC
 vC
-sJ
+ou
 Hr
 vJ
 vJ
@@ -18117,7 +18122,7 @@ JE
 JE
 SN
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -18125,18 +18130,18 @@ Hr
 Hr
 Hr
 Hr
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
 Hr
 vJ
 vJ
@@ -18219,7 +18224,7 @@ JE
 kN
 uv
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -18321,7 +18326,7 @@ ew
 kN
 Bc
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -18423,7 +18428,7 @@ vC
 vC
 vC
 vC
-sJ
+ou
 Hr
 Hr
 Hr
@@ -18518,14 +18523,14 @@ vJ
 vJ
 "}
 (98,1,1) = {"
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-sJ
-Yu
+ou
+ou
+ou
+ou
+ou
+ou
+ou
+ou
 Hr
 vJ
 vJ
@@ -23074,7 +23079,7 @@ wG
 XQ
 nb
 nb
-Jq
+WO
 nt
 Ur
 Xy
@@ -23280,7 +23285,7 @@ vo
 nb
 Eb
 Wi
-UM
+WO
 WO
 WO
 WD
@@ -24298,7 +24303,7 @@ An
 WO
 WO
 WO
-Jq
+WO
 WO
 Ur
 WO
@@ -27826,7 +27831,7 @@ XQ
 NK
 vC
 Pf
-Ok
+mz
 RG
 vC
 WO
