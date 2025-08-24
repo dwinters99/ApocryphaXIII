@@ -26,6 +26,6 @@
 
 
 /obj/item/clothing/under/vampire/turtleneck_skirt/endron
-	name = "Endron turtleneck"
+	name = "Endron turtleneck skirt"
 	desc = "An Endron International employee uniform. This one is a nice turtleneck! Features a fashionable pencil skirt."
 	icon_state = "pentex_turtleneck"
