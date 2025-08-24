@@ -9,7 +9,7 @@
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 100)
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 
-/obj/item/masquerade_contract/attack_self(mob/user)
+/*/obj/item/masquerade_contract/attack_self(mob/user) // APOC REMOVE START
 	. = ..()
 	var/list/masq_breakers = list()
 	if(GLOB.masquerade_breakers_list.len)
@@ -26,7 +26,17 @@
 				if(TT)
 					to_chat(user, "[H.true_real_name], Masquerade: [H.masquerade], Diablerist: [H.diablerist ? "<b>YES</b>" : "NO"], [get_area_name(H)] X:[TT.x] Y:[TT.y]")
 	else
-		to_chat(user, "No available Masquerade breakers in city...")
+		to_chat(user, "No available Masquerade breakers in city...")*/ // APOC REMOVE END
+
+/obj/item/masquerade_contract/attack_self(mob/user)
+	. = ..()
+	if(GLOB.masquerade_breakers_list.len)
+		for(var/mob/living/carbon/human/H in GLOB.masquerade_breakers_list)
+			var/returntext = compose_dir(H, get_turf(H), get_turf(user), method = "masq")
+			to_chat(user, "[returntext]")
+	else
+		to_chat(user, "No available Masquerade breakers in the city...")
+
 
 
 /obj/item/veil_contract
@@ -40,7 +50,8 @@
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 100)
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 
-/obj/item/veil_contract/attack_self(mob/user)
+
+/*/obj/item/veil_contract/attack_self(mob/user)
 	. = ..()
 	var/list/masq_breakers = list()
 	if(GLOB.masquerade_breakers_list.len)
@@ -57,4 +68,14 @@
 			if(TT)
 				to_chat(user, "[W.true_real_name], Veil: [W.masquerade], [get_area_name(W)] X:[TT.x] Y:[TT.y]")
 	else
-		to_chat(user, "No available Veil breakers in city...")
+		to_chat(user, "No available Veil breakers in city...")*/
+
+
+/obj/item/veil_contract/attack_self(mob/user)
+	. = ..()
+	if(GLOB.masquerade_breakers_list.len)
+		for(var/mob/living/carbon/human/H in GLOB.masquerade_breakers_list)
+			var/returntext = compose_dir(H, get_turf(H), get_turf(user), method = "veil")
+			to_chat(user, "[returntext]")
+	else
+		to_chat(user, "No available Veil breakers in the city...")
