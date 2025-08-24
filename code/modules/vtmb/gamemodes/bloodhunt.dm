@@ -4,8 +4,10 @@
 
 /atom/movable/screen/alert/bloodhunt/Click()
 	if(SSbloodhunt.hunted.len) // APOC EDIT START
+		var/compound
 		for(var/mob/living/carbon/human/H in SSbloodhunt.hunted)
-			to_chat(usr, "[compose_dir(H, usr, get_turf(H), "Bloodhunt")]") // APOC EDIT END
+			compound = (compose_dir(H, usr, get_turf(H), "Bloodhunt"))
+			to_chat(usr, "[compound]") // APOC EDIT END
 
 SUBSYSTEM_DEF(bloodhunt)
 	name = "Blood Hunt"

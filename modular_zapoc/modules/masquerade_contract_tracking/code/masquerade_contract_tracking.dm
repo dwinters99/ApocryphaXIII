@@ -45,17 +45,27 @@
 
 	var/place = get_area_name(targetturf)
 
-	var/violations = LOWER_TEXT(GLOB.numbers_as_words[5-target.masquerade])
+	var/violation_index = (5-target.masquerade)
+	var/violations
+	if(violation_index)
+		violations = LOWER_TEXT("[GLOB.numbers_as_words[violation_index]]")
+	else
+		violations = "zero"
 
 	var/returntext
 
-	if(method == "Masquerade")
-		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Masquerade [violations] times. They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist."
-	else if(method == "Bloodhunt")
-		returntext = "[icon2html(getFlatIcon(target), user)][target.true_real_name], [target.mind ? target.mind.assigned_role : "Citizen"], is [disttext] away to [dirtext] in [place]."
-	else if(method == "Veil")
-		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Veil [violations] times."
-	else
-		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]."
+	switch(method)
+		if("Masquerade")
+			if(isghoul(target) || iskindred(target) || iscathayan(target))
+				returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Masquerade [violations] times. They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist."
+		if("Bloodhunt")
+			returntext = "[icon2html(getFlatIcon(target), user)][target.true_real_name], [target.mind ? target.mind.assigned_role : "Citizen"], is [disttext] away to [dirtext] in [place]."
+		if("Veil")
+			if(isgarou(target))
+				returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Veil [violations] times."
+		if("Normal")
+			returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]."
+		else
+			return FALSE
 
 	return returntext
