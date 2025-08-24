@@ -431,6 +431,25 @@
 	},
 /turf/open/floor/plating/vampcarpet,
 /area/space)
+"br" = (
+/obj/structure/table/wood,
+/obj/item/folder/blue{
+	pixel_x = -5
+	},
+/obj/item/folder/blue{
+	pixel_y = 2;
+	pixel_x = -8
+	},
+/obj/item/paper_bin{
+	pixel_y = 7;
+	pixel_x = 8
+	},
+/obj/item/pen{
+	pixel_y = 8;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/bacotell,
+/area/space)
 "bt" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/turf_decal/siding/white{
@@ -1428,6 +1447,9 @@
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/old,
+/area/space)
+"eI" = (
+/turf/closed/wall/vampwall/brick/low,
 /area/space)
 "eJ" = (
 /obj/effect/turf_decal/bordur{
@@ -5649,7 +5671,9 @@
 /area/space)
 "rG" = (
 /obj/structure/table/wood,
-/obj/item/toy/katana,
+/obj/item/toy/katana{
+	anchored = 1
+	},
 /turf/open/floor/plating/vampcarpet,
 /area/space)
 "rI" = (
@@ -8956,6 +8980,12 @@
 	},
 /turf/closed/wall/vampwall/old/low,
 /area/space)
+"Co" = (
+/obj/structure/chair/sofa/bench/metal/right{
+	dir = 1
+	},
+/turf/open/floor/plating/sidewalk,
+/area/space)
 "Cp" = (
 /obj/structure/railing/metal{
 	dir = 1
@@ -9792,6 +9822,12 @@
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/rich,
+/area/space)
+"EK" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/plating/bacotell,
 /area/space)
 "EL" = (
 /obj/machinery/light{
@@ -12755,6 +12791,10 @@
 /obj/effect/turf_decal/caution,
 /turf/open/floor/plating/vampplating/mono,
 /area/space)
+"NR" = (
+/obj/structure/roadsign/busstop,
+/turf/open/floor/plating/sidewalk,
+/area/space)
 "NS" = (
 /obj/structure/chair/wood/wings,
 /obj/effect/landmark/start/zadruga,
@@ -13512,6 +13552,12 @@
 	dir = 10
 	},
 /turf/open/floor/carpet/vamp/redsilver,
+/area/space)
+"Qk" = (
+/obj/structure/chair/sofa/bench/metal/left{
+	dir = 1
+	},
+/turf/open/floor/plating/sidewalk,
 /area/space)
 "Ql" = (
 /obj/effect/turf_decal/siding/wood{
@@ -16265,6 +16311,11 @@
 "YU" = (
 /obj/structure/table/optable/optable2,
 /turf/open/floor/plating/sidewalk/old,
+/area/space)
+"YV" = (
+/obj/structure/table/wood,
+/obj/vampire_computer,
+/turf/open/floor/plating/bacotell,
 /area/space)
 "YW" = (
 /obj/structure/bricks,
@@ -35303,7 +35354,7 @@ hH
 AF
 WO
 WO
-WO
+Co
 dy
 FW
 NI
@@ -35405,7 +35456,7 @@ hH
 AF
 WO
 WO
-WO
+Qk
 TV
 NI
 NI
@@ -35505,9 +35556,9 @@ hH
 hH
 hH
 AF
+NR
 WO
-WO
-WO
+eI
 KK
 rG
 Gl
@@ -35609,7 +35660,7 @@ hH
 AF
 WO
 WO
-WO
+Co
 Is
 NI
 nj
@@ -35711,7 +35762,7 @@ hH
 AF
 WO
 WO
-WO
+Qk
 KK
 ob
 ob
@@ -35723,7 +35774,7 @@ eW
 ak
 nf
 by
-fK
+EK
 fK
 fK
 fK
@@ -35825,8 +35876,8 @@ ak
 ak
 ak
 ak
-fK
-fK
+YV
+br
 fK
 TG
 ak
@@ -35928,8 +35979,8 @@ WO
 rS
 ak
 ak
-Bl
 ak
+Bl
 ak
 ak
 lO
@@ -44993,8 +45044,8 @@ kj
 kj
 kj
 kj
-kj
-kj
+RB
+tt
 ak
 ak
 mO
@@ -45095,8 +45146,8 @@ kj
 kj
 kj
 kj
-kj
-kj
+mK
+KM
 Ox
 AU
 SC
@@ -45197,8 +45248,8 @@ kj
 kj
 kj
 kj
-kj
-kj
+mK
+KM
 Ox
 fh
 Ow
@@ -45299,8 +45350,8 @@ kj
 kj
 kj
 kj
-kj
-kj
+tJ
+qw
 Ox
 TX
 iW
