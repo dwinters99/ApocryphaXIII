@@ -15,8 +15,7 @@
 	. = ..()
 	if(GLOB.masquerade_breakers_list.len)
 		for(var/mob/living/carbon/human/H in GLOB.masquerade_breakers_list)
-			var/returntext = compose_dir(H, get_turf(H), get_turf(user), method)
-			to_chat(user, span_warning("[returntext]"))
+			to_chat(user, span_warning("[compose_dir(H, user, get_turf(H), method)]"))
 	else
 		to_chat(user, span_notice("No available [method] breakers in the city...")) // APOC ADD END
 

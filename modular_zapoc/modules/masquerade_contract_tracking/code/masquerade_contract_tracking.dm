@@ -1,4 +1,6 @@
-/proc/compose_dir(mob/living/carbon/human/target, turf/targetturf, turf/ourturf, var/method = "normal")
+/proc/compose_dir(mob/living/carbon/human/target, mob/living/carbon/human/user, turf/targetturf, var/method = "normal")
+	var/ourturf = get_turf(user)
+
 	if(method == "Masquerade" || method == "Veil")
 		if(!(GLOB.masquerade_breakers_list.len))
 			return FALSE
@@ -48,9 +50,11 @@
 	var/returntext
 
 	if(method == "Masquerade")
-		returntext = "[target.true_real_name] is [disttext] away to the [dirtext] in [place]. They have violated the Masquerade [violations] times. They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist."
+		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Masquerade [violations] times. They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist."
+	else if(method == "Bloodhunt")
+		returntext = "[icon2html(getFlatIcon(target), user)][target.true_real_name], [target.mind ? target.mind.assigned_role : "Citizen"], is [disttext] away to [dirtext] in [place]."
 	else if(method == "Veil")
-		returntext = "[target.true_real_name] is [disttext] away to the [dirtext] in [place]. They have violated the Veil [violations] times."
+		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Veil [violations] times."
 	else
 		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]."
 
