@@ -1,5 +1,5 @@
 /proc/compose_dir(mob/living/human/target, turf/targetturf, turf/ourturf, var/method = "normal")
-	if(method == "masq" || method == "veil")
+	if(method == "Masquerade" || method == "Veil")
 		if(!(GLOB.masquerade_breakers_list.len))
 			return FALSE
 
@@ -49,9 +49,9 @@
 
 	var/returntext
 
-	if(method = "masq")
+	if(method = "Masquerade")
 		returntext = "[target.true_real_name] is [disttext] away to the [dirtext] in [place]. They have violated the Masquerade [violations] times. They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist."
-	else if(method = "veil")
+	else if(method = "Veil")
 		returntext = "[target.true_real_name] is [disttext] away to the [dirtext] in [place]. They have violated the Veil [violations] times."
 	else
 		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]."
