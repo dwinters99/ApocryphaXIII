@@ -3,10 +3,9 @@
 	icon_state = "bloodhunt"
 
 /atom/movable/screen/alert/bloodhunt/Click()
-	for(var/mob/living/carbon/human/H in SSbloodhunt.hunted)
-		if(H)
-			var/area/A = get_area(H)
-			to_chat(usr, "[compose_dir(H, usr, get_turf(H), "Bloodhunt")]") // APOC EDIT CHANGE
+	if(SSbloodhunt.hunted.len) // APOC EDIT START
+		for(var/mob/living/carbon/human/H in SSbloodhunt.hunted)
+			to_chat(usr, "[compose_dir(H, usr, get_turf(H), "Bloodhunt")]") // APOC EDIT END
 
 SUBSYSTEM_DEF(bloodhunt)
 	name = "Blood Hunt"
