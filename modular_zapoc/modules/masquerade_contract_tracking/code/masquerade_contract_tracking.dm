@@ -1,4 +1,4 @@
-/proc/compose_dir(mob/living/human/target, turf/targetturf, turf/ourturf, var/method = "normal")
+/proc/compose_dir(mob/living/carbon/human/target, turf/targetturf, turf/ourturf, var/method = "normal")
 	if(method == "Masquerade" || method == "Veil")
 		if(!(GLOB.masquerade_breakers_list.len))
 			return FALSE
@@ -43,15 +43,13 @@
 
 	var/place = get_area_name(targetturf)
 
-	var/diablerietext = " They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist.""
-
-	var/violations = LOWER_TEXT(numbers_as_words[5-target.masquerade])
+	var/violations = LOWER_TEXT(GLOB.numbers_as_words[5-target.masquerade])
 
 	var/returntext
 
-	if(method = "Masquerade")
+	if(method == "Masquerade")
 		returntext = "[target.true_real_name] is [disttext] away to the [dirtext] in [place]. They have violated the Masquerade [violations] times. They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist."
-	else if(method = "Veil")
+	else if(method == "Veil")
 		returntext = "[target.true_real_name] is [disttext] away to the [dirtext] in [place]. They have violated the Veil [violations] times."
 	else
 		returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]."
