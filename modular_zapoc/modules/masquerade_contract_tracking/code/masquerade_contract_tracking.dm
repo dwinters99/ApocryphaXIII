@@ -1,4 +1,4 @@
-/proc/compose_dir(mob/living/carbon/human/target, mob/living/carbon/human/user, turf/targetturf, var/method = "normal")
+/proc/compose_dir(mob/living/carbon/human/target, mob/living/carbon/human/user, turf/targetturf, method = LOCATOR_NORMAL)
 	var/ourturf = get_turf(user)
 
 	if(method == "Masquerade" || method == "Veil")
@@ -55,15 +55,19 @@
 	var/returntext
 
 	switch(method)
-		if("Masquerade")
+		if(LOCATOR_MASQ)
 			if(isghoul(target) || iskindred(target) || iscathayan(target))
 				returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Masquerade [violations] times. They [target.diablerist ? "<b>are</b>" : "are not"] a diablerist."
-		if("Bloodhunt")
+		if(LOCATOR_BLOODHUNT)
 			returntext = "[icon2html(getFlatIcon(target), user)][target.true_real_name], [target.mind ? target.mind.assigned_role : "Citizen"], is [disttext] away to [dirtext] in [place]."
-		if("Veil")
+		if(LOCATOR_VEIL)
 			if(isgarou(target))
 				returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Veil [violations] times."
-		if("Normal")
+//		if(LOCATOR_HOWL) // Werewolf code sucks a lot. Don't feel like making this work right now.
+//			var/howltype
+//			if(isgarou(target))
+				returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]. They have violated the Veil [violations] times."
+		if(LOCATOR_NORM)
 			returntext = "[target.true_real_name] is [disttext] away to [dirtext] in [place]."
 		else
 			return FALSE
