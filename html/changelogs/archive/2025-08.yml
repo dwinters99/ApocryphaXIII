@@ -95,3 +95,9 @@
   - refactor: Stationary hunger code is better
   - bugfix: Lucy The Axe is now once again accessible. (And the other director stuff
       I guess...)
+2025-08-24:
+  dwinters99:
+  - bugfix: TRAIT_ANIMAL_REPULSION should no longer cause shadow demons to hate you
+2025-08-25:
+  KCartridge:
+  - bugfix: fixed invisible Endron IDs
